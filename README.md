@@ -2,7 +2,16 @@
 
 This beginner-friendly Spring Boot application demonstrates JSON production and consumption, deserialization failures, business-processing failures, retries, and a dead-letter topic.
 
+Repository: https://github.com/janandlead/spring-kafka-dlt
+
 For the full component architecture and end-to-end functional flows, see [ARCHITECTURE_AND_FUNCTIONAL_FLOW.md](ARCHITECTURE_AND_FUNCTIONAL_FLOW.md).
+
+## Quick start
+
+1. Start Apache Kafka locally on `localhost:9092`.
+2. Run `mvn clean compile` to verify the project.
+3. Start the application with `mvn spring-boot:run`.
+4. Send a test customer using the REST examples below.
 
 ## Prerequisites
 
